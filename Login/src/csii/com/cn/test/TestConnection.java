@@ -14,5 +14,7 @@ public class TestConnection {
         UserDao userDao = new UserDao();
         User testUser = userDao.getConnection(user);
         System.out.println(testUser);
+        System.out.println("345234524244322343");
+        System.out.println("3333");
     }
 }

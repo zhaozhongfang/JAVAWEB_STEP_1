@@ -14,5 +14,7 @@ public class TestConnection {
         UserDao userDao = new UserDao();
         User testUser = userDao.getConnection(user);
         System.out.println(testUser);
+        System.out.println("12312312");
+
     }
 }

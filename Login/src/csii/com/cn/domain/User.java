@@ -7,6 +7,7 @@ public class User {
     private String password;
     private String jj;
     private String phone;
+    private String dd;
 
     @Override
     public String toString() {

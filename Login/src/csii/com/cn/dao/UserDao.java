@@ -12,6 +12,8 @@ public class UserDao {
     public User getConnection(User user){
         String sql = "select * from User where username=? and password = ?";
         User aa = jdbcTemplate.queryForObject(sql,new BeanPropertyRowMapper<User>(User.class),user.getUserName(),user.getPassword());
+
+        System.out.println("444444444");
         return aa==null?null:aa;
     }
 }

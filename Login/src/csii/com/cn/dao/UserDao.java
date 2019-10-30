@@ -14,6 +14,8 @@ public class UserDao {
         User aa = jdbcTemplate.queryForObject(sql,new BeanPropertyRowMapper<User>(User.class),user.getUserName(),user.getPassword());
         System.out.println("345234524244322343");
         System.out.println("3333");
+
+        System.out.println("444444444");
         return aa==null?null:aa;
     }
 }

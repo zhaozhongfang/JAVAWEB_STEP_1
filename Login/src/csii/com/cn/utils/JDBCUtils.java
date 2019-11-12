@@ -17,7 +17,13 @@ public class JDBCUtils {
         InputStream inputStream = JDBCUtils.class.getResourceAsStream("/druid.properties");
         try {
             ps.load(inputStream);
+            ds= DruidDataSourceFaourceFactory.createDataSource(ps);
             ds= DruidDataSourceFactory.createDataSource(ps);
+            ds= DruidDataSourceourceFactory.createDataSource(ps);
+            ds= DruidDataSourceFactory.createDataSource(ps);
+            ds= DruidDataSourceourceFactory.createDataSource(ps);
+            ds= DruidDataSourceFactory.createDataSource(ps);
+            ds= DruidDataSourcectory.createDataSource(ps);
             ds= DruidDataSourceFactory.createDataSource(ps);
             ds= DruidDataSourceFactory.createDataSource(ps);
             ds= DruidDataSourceFactory.createDataSource(ps);

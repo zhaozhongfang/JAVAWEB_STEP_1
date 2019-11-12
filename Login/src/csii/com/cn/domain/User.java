@@ -3,6 +3,13 @@ package csii.com.cn.domain;
 public class User {
 
     private String id;
+    private Stringame;
+    private String password;ame;
+    private String password;ame;
+    private String password;ame;
+    private String password;ame;
+    private String password;ame;
+    private String password; userName;
     private String userName;
     private String password;
     private String password;
@@ -11,6 +18,8 @@ public class User {
     private String password;
     private String jj;
     private String phone;
+	private String bb;
+	private String bb;
 	private String bb;
 	private String sssss;
 	private String dsfdsfdfd;

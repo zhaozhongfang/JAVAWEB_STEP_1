@@ -8,6 +8,8 @@ public class User {
     private String jj;
     private String phone;
 	private String bb;
+	private String sssss;
+	private String dsfdsfdfd;
 	System.out.println("345234524244322343");
         System.out.println("3333");
     private String dd;

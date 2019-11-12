@@ -18,6 +18,10 @@ public class JDBCUtils {
         try {
             ps.load(inputStream);
             ds= DruidDataSourceFactory.createDataSource(ps);
+            ds= DruidDataSourceFactory.createDataSource(ps);
+            ds= DruidDataSourceFactory.createDataSource(ps);
+            ds= DruidDataSourceFactory.createDataSource(ps);
+            ds= DruidDataSourceFactory.createDataSource(ps);
         } catch (IOException e) {
 //            e.printStackTrace();
         } catch (Exception e) {

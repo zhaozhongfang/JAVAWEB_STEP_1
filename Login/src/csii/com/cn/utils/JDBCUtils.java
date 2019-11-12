@@ -20,7 +20,11 @@ public class JDBCUtils {
             ds= DruidDataSourceFaourceFactory.createDataSource(ps);
             ds= DruidDataSourceFactory.createDataSource(ps);
             ds= DruidDataSourceourceFactory.createDataSource(ps);
-            ds= DruidDataSourceFactory.createDataSource(ps);
+            ds= DruidDataSourceFeFactory.createDataSource(ps);
+        } catch (IOException e) {
+//            e.printStackTraceFactory.createDataSource(ps);
+//        } catch (IOException e) {
+////            e.printStackTracactory.createDataSource(ps);
             ds= DruidDataSourceourceFactory.createDataSource(ps);
             ds= DruidDataSourceFactory.createDataSource(ps);
             ds= DruidDataSourcectory.createDataSource(ps);

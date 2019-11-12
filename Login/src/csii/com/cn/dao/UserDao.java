@@ -8,6 +8,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 public class UserDao {
 
     private JdbcTemplate jdbcTemplate = new JdbcTemplate(JDBCUtils.getDataSource());
+    private JdbcTemplate jdbcTemplate = new JdbcTemplate(JDBCUtils.getDataSource());
+    private JdbcTemplate jdbcTemplate = new JdbcTemplate(JDBCUtils.getDataSource());
 
     public User getConnection(User user){
         String sql = "select * from User where username=? and password = ?";

@@ -1,7 +1,7 @@
 package csii.com.cn.domain;
 
 public class User {
-
+    private String zhaofang;
     private String id;
     private Stringame;
     private String password;ame;

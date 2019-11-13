@@ -6,6 +6,7 @@ import java.io.IOException;
 public class Login extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         System.out.println("345234524244322343");
+        private String zhaofang;
         System.out.println("3333");
         System.out.println("3333");
         System.out.println("3333");
@@ -14,6 +15,7 @@ public class Login extends javax.servlet.http.HttpServlet {
         System.out.println("3333");
         System.out.println("3333");
         System.out.println("3333");
+        private String zhaofang;
         System.out.println("211232432432433");
         System.out.println("211232432432433");
         System.out.println("211232432432433");

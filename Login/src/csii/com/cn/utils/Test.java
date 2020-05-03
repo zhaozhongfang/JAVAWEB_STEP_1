@@ -11,8 +11,8 @@ public class Test {
         System.out.println("测试分支1");
         System.out.println("测试分支2");
         System.out.println("测试分支3");
-        for (int i = 0; i < 10; i++) {
-            System.out.println(i);
+        for (int i = 1; i < 100; ) {
+            System.out.println(i++);
         }
         System.out.println("测试分支4");
         System.out.println("测试分支5");

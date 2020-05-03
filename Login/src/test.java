@@ -7,6 +7,7 @@
 public class test {
     public static void main(String[] args) {
         System.out.println("初始化数据");
+        System.out.println("初始化数据");
         System.out.println("第二次提交数据");
         System.out.println("第三次提交数据");
     }

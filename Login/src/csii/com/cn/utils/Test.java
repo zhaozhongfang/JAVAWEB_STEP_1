@@ -16,6 +16,9 @@ public class Test {
         }
         System.out.println("测试分支4");
         System.out.println("测试分支5");
+        for (int i = 0; i < 1212; i++) {
+            System.out.println(i);
+        }
         System.out.println("测试分支6");
     }
 }

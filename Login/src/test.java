@@ -7,5 +7,6 @@
 public class test {
     public static void main(String[] args) {
         System.out.println("初始化数据");
+		张三黝黑
     }
 }

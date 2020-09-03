@@ -9,5 +9,6 @@ public class test {
         System.out.println("初始化数据");
 		张三黝黑
 		李四哈哈
+		李四哈哈
     }
 }
